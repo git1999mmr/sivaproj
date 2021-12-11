@@ -265,20 +265,22 @@ ul{
 	nav ul{
 		text-align: inline-flex;
 		position: relative;
+		float: right;
+		top: 3px;
 		padding: 2rem;
-		top: 6px;
-		float: center;
-		left: 0;
 		background: black;
-		width: 100%;
 		overflow: hidden;
-		transition: max-height 0.5s;
+		transition: max-height 0.8s;
 	}
 	nav ul li{
 		display:inline-flex;
+		flex-direction: row;
+		position: relative;
+		float: left;
 	} 
 	nav ul li a{
 		color: white;
+		text-align: unset;
 	}
 }
 
@@ -286,7 +288,8 @@ ul{
 
 @media only screen and (max-width:600px){
 	.row{
-		text-align: center;
+		
+		text-align: right;
 	}
 	.col-2,.col-3.col-4{
 		flex-basis: 100%;
