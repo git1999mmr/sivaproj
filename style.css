@@ -9,6 +9,7 @@ body{
 	width: fit-content;
 }
 .navbar{
+	
 	display: flex;
 	align-items: center;
 	padding: 20px;
@@ -264,8 +265,9 @@ ul{
 	nav ul{
 		text-align: inline-flex;
 		position: relative;
-		float: left;
-		top: 70px;
+		padding: 2rem;
+		top: 6px;
+		float: center;
 		left: 0;
 		background: black;
 		width: 100%;
